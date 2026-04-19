@@ -45,7 +45,7 @@
                             <div class="w-full md:w-2/5 p-8 md:p-12 flex flex-col justify-center relative">
                                 <div class="absolute inset-0 bg-gradient-to-br {{ $project['gradient'] }} opacity-[0.03] pointer-events-none"></div>
                                 <div class="relative z-10">
-                                    <div class="mb-6 flex items-center justify-start {{ ($project['tall_logo'] ?? false) ? 'h-28 md:h-32' : 'h-20 md:h-24' }}">
+                                    <div class="mb-6 flex items-center justify-center h-20 md:h-24">
                                         <img
                                             src="{{ asset($project['logo']) }}"
                                             alt="{{ $project['title'] }} logo"
